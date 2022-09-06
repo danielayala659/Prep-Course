@@ -239,10 +239,8 @@ function retornarPerimetro(lado){
 
 function areaDelTriangulo(base, altura){
 
+  return (base * altura) / 2;
   
-   return (base * altura) / 2;
-  
-
 }
 
 
@@ -251,8 +249,6 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   return euro * 1.20;
-  
-
   
 }
 
